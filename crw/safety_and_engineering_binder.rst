@@ -15,6 +15,8 @@ Safety and Engineering Binder for HamWAN Memphis Metro Installation at the Craft
 
 .. contents:: Table of Contents
 
+.. attention:: For service or support, contact HamWAN NOC at netops@memhamwan.org
+
 .. raw:: pdf
 
    PageBreak
