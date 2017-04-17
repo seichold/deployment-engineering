@@ -42,6 +42,7 @@ Licensing and Permitting
 RF Spectrum
 -----------
 All transmitters at this location are operating using the FCC license below or within the U-NII FCC regulatory domain.
+
 .. figure:: KM4ECM-FCC-License.png
   :alt: KM4ECM FCC License
 
