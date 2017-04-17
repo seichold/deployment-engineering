@@ -2,11 +2,12 @@ language: python
 install:
 - pip install rst2pdf
 script:
-- rst2pdf ./crw/safety_and_engineering_binder.rst ./crw/crw_safety_and_engineering_binder.pdf 
+- rst2pdf ./crw/safety_and_engineering_binder.rst ./crw/crw_safety_and_engineering_binder.pdf
 deploy:
   provider: releases
   api_key:
     secure: jooQLZCH7oIjSnCEElk+BcakIy9VN3HYQYsQnaDJxnJcDI1uj1g0ysHB9McgFm9XnNMLsGT4X6D2zDbloOIJBtSmocagN7Zv3SxOfTn9lMHpePzr6SmjsomonaQiJXNydg7zjx6uLey/vBDtuZz9Ed6WLdkX2BUBL8ArDupMACGmikFmzM1vq09kFwbJPBLou5m7gnXLpfDi9TeO/otLxq/iWzT+LySAX4AjZ7M4867uHPjFDfHBXghGLRW4yEPYzzsGy6BUCVbsM6f0lQ1V8iPrftm/HYS38fmyf2tidtDv9rNZULpHZvpTb/yoPDJxUM5JPpC6Owb4t7y8CAlP8WNgzdXjjYhxvsyOJNk1z+ensIrIgbIYbzkmBNRdFK2Xv1V1At7AqCkARMqdDz/z8iEx2Nv/bxmZLkqqG9WrZWIGNEfhu1rJUDfGLzT8ldXc0x9L6QZ7VObrbmtvSP0Dv+BS5xHzhYFaaECWyXboWWe250aPqwRsG8H95WMZU4Aao+Ei8Egy9eOhlVkIt1/rnwCGCIj5eVhT7qoVhOSPZNF7jSM3sA0GOsQlX6LYtIx+Tq2bHBDLINqy6Ku4ZaoYwbFBYn6BTWZg+DysPTYbg+5vFp60mIuBjiQ0iUYWzVoH7/AzaxFDMy5sc+1s4Hr6a4pVLQZps53GWPA8LkIE2tg=
-  file: ./crw/crw_safety_and_engineering_binder.pdf
+  file:
+    - "crw/crw_safety_and_engineering_binder.pdf"
   on:
     repo: memhamwan/deployment-engineering
