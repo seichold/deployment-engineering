@@ -4,7 +4,7 @@ Safety and Engineering Binder for HamWAN Memphis Metro Installation at the Craft
 ===============================================================================================
 :Copyright: 2017 with a Creative Commons Attribution 4.0 International (CC BY 4.0) license
 :Authors: Turner, Ryan
-:Revision: 1
+:Revision: 2
 :Date: 17 April 2017
 :Organization: HamWAN Memphis Metro, Inc
 :Contact: netops@memhamwan.org
@@ -22,7 +22,7 @@ Safety and Engineering Binder for HamWAN Memphis Metro Installation at the Craft
 Safety Warnings
 ===============
 
-.. WARNING:: **Radio Frequency Fields on top of the tank exceeds the FCC general public exposure limit.**
+.. WARNING:: **Radio Frequency Fields on top of the tank exceed the FCC general public exposure limit.**
   Obey all posted signs and site guidelines for working in radio frequency environments. Contact HamWAN NOC at netops@memhamwan.org prior to approaching any microwave antenna on this site. In accordance with Federal Communications Commission rules on radio frequency emissions 47 CFR 1.1307(b)
 
 Cabling Subsystem Link Record
