@@ -31,3 +31,10 @@ Cabling Subsystem Link Record
 .. csv-table:: Cabling Subsystem Link Record
    :file: cabling_subsystem_link_record.csv
    :header-rows: 1
+
+FCC License
+===========
+.. figure:: KM4ECM-FCC-License.png
+  :alt: KM4ECM FCC License
+
+  MemHamWAN's KM4ECM amateur radio license with club privileges.
