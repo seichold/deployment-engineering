@@ -1,0 +1,5 @@
+language: python
+install:
+  - pip install rst2pdf
+script:
+  - rst2pdf ./crw/safety_and_engineering_binder.rst
