@@ -26,21 +26,25 @@ Introduction
 This document exists to provide on-site reference materials about the equipment installed on premesis, especially for troubleshooting and incident response purposes. It is not meant to be a complete record of every device installed. The source of this is maintained on the HamWAN Deployment Engineering repository, and discussion of its content may be facilitated there.
 
 Safety Warnings
-===============
+---------------
 
 .. WARNING:: **Radio Frequency Fields on top of the tank exceed the FCC general public exposure limit.**
   Obey all posted signs and site guidelines for working in radio frequency environments. Contact HamWAN NOC at netops@memhamwan.org prior to approaching any microwave antenna on this site. In accordance with Federal Communications Commission rules on radio frequency emissions 47 CFR 1.1307(b)
 
-Systems Overview
-================
+Systems Design and Deployment
+=============================
 TODO
 
 Cabling Subsystem Link Record
-=============================
+-----------------------------
 
 .. csv-table:: Cabling Subsystem Link Record
    :file: cabling_subsystem_link_record.csv
    :header-rows: 1
+
+Signal Survey
+-------------
+TODO
 
 Licensing and Permitting
 ========================
@@ -53,7 +57,3 @@ All transmitters at this location are operating using the FCC license below or w
   :alt: KM4ECM FCC License
 
   MemHamWAN's KM4ECM amateur radio license with club privileges.
-
-Signal Survey
-=============
-TODO
