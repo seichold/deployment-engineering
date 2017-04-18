@@ -33,7 +33,9 @@ Safety Warnings
 
 Systems Design and Deployment
 =============================
-TODO
+
+.. figure:: network-diagram-layer1.svg
+  :alt: Layer 1 network diagram
 
 Cabling Subsystem Link Record
 -----------------------------
