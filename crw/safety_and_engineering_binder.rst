@@ -21,6 +21,10 @@ Safety and Engineering Binder for HamWAN Memphis Metro Installation at the Craft
 
    PageBreak
 
+Introduction
+============
+This document exists to provide on-site reference materials about the equipment installed on premesis, especially for troubleshooting and incident response purposes. It is not meant to be a complete record of every device installed. The source of this is maintained on the HamWAN Deployment Engineering repository, and discussion of its content may be facilitated there.
+
 Safety Warnings
 ===============
 
