@@ -40,13 +40,23 @@ Systems Design and Deployment
 Cabling Subsystem Link Record
 -----------------------------
 
+The premesis is considered a Class 1 TIA-606-B space. All physical telecommunications infrastructure is arranged such that it is TIA-606-B standards compliant [#]_.
+
+.. csv-table:: Infrastructure Identifiers
+   :file: crw-identifiers.csv
+   :header-rows: 1
+
 .. csv-table:: Cabling Subsystem Link Record
    :file: cabling_subsystem_link_record.csv
    :header-rows: 1
 
 Signal Survey
 -------------
-TODO
+Work in progress...
+
+* *omn1.crw* on 5920 MHz (10 MHz channel width) at or below 30 dBm (RB912UAG-5HPnD) into a 13 dBi gain omni antenna (AMO-5G13)
+* *omn2.crw* on (20 MHz channel width)
+* *ptpleb.crw* on (20 MHz channel width)
 
 Licensing and Permitting
 ========================
@@ -59,3 +69,5 @@ All transmitters at this location are operating using the FCC license below or w
   :alt: KM4ECM FCC License
 
   MemHamWAN's KM4ECM amateur radio license with club privileges.
+
+.. [#] `Administration Standard for Telecommunications Infrastructure TIA-606-B <http://az776130.vo.msecnd.net/media/docs/default-source/contractors-and-bidders-library/standards-guidelines/it-standards/tia-606-b.pdf?sfvrsn=2>`_
