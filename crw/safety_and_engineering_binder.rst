@@ -4,8 +4,8 @@ Safety and Engineering Binder for HamWAN Memphis Metro Installation at the Craft
 ===============================================================================================
 :Copyright: 2017 with a Creative Commons Attribution 4.0 International (CC BY 4.0) license
 :Authors: Turner, Ryan
-:Revision: 2
-:Date: 17 April 2017
+:Revision: 1
+:Date: 21 April 2017
 :Organization: HamWAN Memphis Metro, Inc
 :Contact: netops@memhamwan.org
 
@@ -34,8 +34,23 @@ Safety Warnings
 Systems Design and Deployment
 =============================
 
+Physical Devices (Layer 1)
+--------------------------
+
 .. figure:: network-diagram-layer1.png
   :alt: Layer 1 network diagram
+
+.. csv-table:: Site Assets
+   :file: crw-assets.csv
+   :header-rows: 1
+
+Network Hosts (Layer 3)
+-----------------------
+
+.. csv-table:: Addressing
+   :file: crw-ip-addresses.csv
+   :widths: 40,40,20
+   :header-rows: 1
 
 Cabling Subsystem Link Record
 -----------------------------
@@ -44,6 +59,7 @@ The premesis is considered a Class 1 TIA-606-B space. All physical telecommunica
 
 .. csv-table:: Infrastructure Identifiers
    :file: crw-identifiers.csv
+   :widths: 20,20,60
    :header-rows: 1
 
 .. csv-table:: Cabling Subsystem Link Record
@@ -71,3 +87,5 @@ All transmitters at this location are operating using the FCC license below or w
   MemHamWAN's KM4ECM amateur radio license with club privileges.
 
 .. [#] `Administration Standard for Telecommunications Infrastructure TIA-606-B <http://az776130.vo.msecnd.net/media/docs/default-source/contractors-and-bidders-library/standards-guidelines/it-standards/tia-606-b.pdf?sfvrsn=2>`_
+.. footer::
+  ###Page###

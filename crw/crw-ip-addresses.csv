@@ -1,0 +1,13 @@
+Hostname,Alias,IP
+cam1.crw.memhamwan.net,eth0.cam1.crw.memhamwan.net,44.34.129.121/28
+cam2.crw.memhamwan.net,eth0.cam2.crw.memhamwan.net,44.34.129.122/28
+cam3.crw.memhamwan.net,eth0.cam3.crw.memhamwan.net,44.34.129.123/28
+cam4.crw.memhamwan.net,eth0.cam4.crw.memhamwan.net,44.34.129.124/28
+omn1.crw.memhamwan.net,ether1.omn1.crw.memhamwan.net,44.34.129.114/28
+,wlan1.omn1.crw.memhamwan.net,44.34.129.129/28
+omn2.crw.memhamwan.net,ether1.omn2.crw.memhamwan.net,44.34.129.119/28
+ptpleb.crw.memhamwan.net,ether1.ptpleb.crw.memhamwan.net,44.34.129.115/28
+,wlan1.ptpleb.crw.memhamwan.net,44.34.131.144/28
+r1.crw.memhamwan.net,ether1.r1.crw.memhamwan.net,44.34.129.116/28
+r2.crw.memhamwan.net,ether1.r2.crw.memhamwan.net,44.34.129.117/28
+r3.crw.memhamwan.net,ether1.r3.crw.memhamwan.net,44.34.129.118/28
