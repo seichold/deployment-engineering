@@ -41,17 +41,44 @@ Physical Devices (Layer 1)
 .. figure:: network-diagram-layer1.png
   :alt: Layer 1 network diagram
 
+  Layer 1 network diagram
+
+.. figure:: power-block-diagram.png
+  :alt: Power block diagram
+
+  Power block diagram
+
 .. csv-table:: Site Assets
-   :file: crw-assets.csv
    :header-rows: 1
+
+   Make,Model,Serial #,Asset Tag
+   MikroTik,uAP ac,711F062B5DBB,10016
+   MikroTik,RB750P-PBr2,,10017
+   MikroTik,RB750P-PBr2,,10018
+   MikroTik,RB3011UiAS-RM,780F064B04AB,10019
+   MikroTik,RB911G-5HPacD-NB,,10020
+   MikroTik,RB921UAGS-5SHPacT-NM,,10021
 
 Network Hosts (Layer 3)
 -----------------------
 
 .. csv-table:: Addressing
-   :file: crw-ip-addresses.csv
    :widths: 40,40,20
    :header-rows: 1
+
+   Hostname,Alias,IP
+   cam1.crw.memhamwan.net,eth0.cam1.crw.memhamwan.net,44.34.129.121/28
+   cam2.crw.memhamwan.net,eth0.cam2.crw.memhamwan.net,44.34.129.122/28
+   cam3.crw.memhamwan.net,eth0.cam3.crw.memhamwan.net,44.34.129.123/28
+   cam4.crw.memhamwan.net,eth0.cam4.crw.memhamwan.net,44.34.129.124/28
+   omn1.crw.memhamwan.net,ether1.omn1.crw.memhamwan.net,44.34.129.114/28
+   ,wlan1.omn1.crw.memhamwan.net,44.34.129.129/28
+   omn2.crw.memhamwan.net,ether1.omn2.crw.memhamwan.net,44.34.129.119/28
+   ptpleb.crw.memhamwan.net,ether1.ptpleb.crw.memhamwan.net,44.34.129.115/28
+   ,wlan1.ptpleb.crw.memhamwan.net,44.34.131.144/28
+   r1.crw.memhamwan.net,ether1.r1.crw.memhamwan.net,44.34.129.116/28
+   r2.crw.memhamwan.net,ether1.r2.crw.memhamwan.net,44.34.129.117/28
+   r3.crw.memhamwan.net,ether1.r3.crw.memhamwan.net,44.34.129.118/28
 
 Cabling Subsystem Link Record
 -----------------------------
@@ -59,13 +86,24 @@ Cabling Subsystem Link Record
 The premesis is considered a Class 1 TIA-606-B space. All physical telecommunications infrastructure is arranged such that it is TIA-606-B standards compliant [#]_.
 
 .. csv-table:: Infrastructure Identifiers
-   :file: crw-identifiers.csv
    :widths: 20,20,60
    :header-rows: 1
 
+   Identifier,Type,Description
+   +2HW,TS Identifier,The 2nd level of the water tower in HamWAN's area
+   +WT,TS Identifier,The top of the water tower
+   +2HW.1,Cabinet Identifier,The first cabinet in the HamWAN area
+   +WT.1,Cabinet Identifier,The first mast on top of the water tower
+
 .. csv-table:: Cabling Subsystem Link Record
-   :file: cabling_subsystem_link_record.csv
    :header-rows: 1
+   :widths: 20,20,10,30
+
+   Link ID,Cable Type,Cable Length,Service Record
+   2HW01-42:01/PHHW01-1:01,ARCFLEX FLEX6Cable,,
+   +2HW.1-SWARM1:ETH0/+2HW.1-R1:8,Vericom Verimax MBW6U-01444,,
+   +2HW.1-SWARM1:ETH1/+2HW.1-R1:9,Vericom Verimax MBW6U-01444,,
+   +2HW.1-SWARM1:ILO/+2HW.1-R1:7,Vericom Verimax MBW6U-01444,,
 
 Signal Survey
 -------------
