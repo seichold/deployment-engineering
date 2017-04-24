@@ -48,54 +48,6 @@ Physical Devices (Layer 1)
 
   Power block diagram
 
-.. csv-table:: Cabinet +2HW.1
-   :header-rows: 1
-   :widths: 5,22,25,23,25
-
-   #,Front Device ID,Front Device Description,Back Device ID,Back Device Description
-   42,,Cover,+2HW.1-42,Patch Panel
-   41,,Cover,+2HW.1-poe,WS-POE-12-1U POE Injector
-   40,,Cover,,Cable Manager
-   39,,Cover,,Cable Manager
-   38,,Cover,+2HW.1-r1,RB3011
-   37,,Cover,,Cable Manager
-   36,,Cover,+2HW.1-pdu,APC PDU
-   35,,Cover,,
-   34,,Cover,,
-   33,,Cover,,
-   32,,Cover,,
-   31,,Cover,,
-   30,,Cover,,
-   29,,Cover,,
-   28,,Cover,,
-   27,,Cover,,
-   26,+2HW.1-swarm1,HP DL360,+2HW.1-swarm1,HP DL360
-   25,,
-   24,,
-   23,,
-   22,,
-   21,,
-   20,,
-   19,,
-   18,,
-   17,,
-   16,,
-   15,,
-   14,,
-   13,,
-   12,,
-   11,,
-   10,,
-   09,,
-   08,,
-   07,,
-   06,,
-   05,,
-   04,,
-   03,,
-   02,,
-   01,,
-
 .. csv-table:: Site Assets
    :header-rows: 1
 
@@ -130,7 +82,7 @@ Network Hosts (Layer 3)
    r2.crw.memhamwan.net,ether1.r2.crw.memhamwan.net,44.34.129.117/28
    r3.crw.memhamwan.net,ether1.r3.crw.memhamwan.net,44.34.129.118/28
 
-Cabling Subsystem Link Record
+Cabling and Housing Subsystem
 -----------------------------
 
 The premesis is considered a Class 1 TIA-606-B space. All physical telecommunications infrastructure is arranged such that it is TIA-606-B standards compliant [#]_.
@@ -154,6 +106,54 @@ The premesis is considered a Class 1 TIA-606-B space. All physical telecommunica
    +2HW.1-SWARM1:ETH0/+2HW.1-R1:8,Vericom Verimax MBW6U-01444,,
    +2HW.1-SWARM1:ETH1/+2HW.1-R1:9,Vericom Verimax MBW6U-01444,,
    +2HW.1-SWARM1:ILO/+2HW.1-R1:7,Vericom Verimax MBW6U-01444,,
+
+.. csv-table:: Cabinet +2HW.1
+  :header-rows: 1
+  :widths: 5,22,25,23,25
+
+  #,Front Device ID,Front Device Description,Back Device ID,Back Device Description
+  42,,Cover,+2HW.1-42,Patch Panel
+  41,,Cover,+2HW.1-poe,WS-POE-12-1U POE Injector
+  40,,Cover,,Cable Manager
+  39,,Cover,,Cable Manager
+  38,,Cover,+2HW.1-r1,RB3011
+  37,,Cover,,Cable Manager
+  36,,Cover,+2HW.1-pdu,APC PDU
+  35,,Cover,,
+  34,,Cover,,
+  33,,Cover,,
+  32,,Cover,,
+  31,,Cover,,
+  30,,Cover,,
+  29,,Cover,,
+  28,,Cover,,
+  27,,Cover,,
+  26,+2HW.1-swarm1,HP DL360,+2HW.1-swarm1,HP DL360
+  25,,
+  24,,
+  23,,
+  22,,
+  21,,
+  20,,
+  19,,
+  18,,
+  17,,
+  16,,
+  15,,
+  14,,
+  13,,
+  12,,
+  11,,
+  10,,
+  09,,
+  08,,
+  07,,
+  06,,
+  05,,
+  04,,
+  03,,
+  02,,
+  01,,
 
 Signal Survey
 -------------
