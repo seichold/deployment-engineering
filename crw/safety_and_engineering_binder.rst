@@ -102,10 +102,13 @@ The premesis is considered a Class 1 TIA-606-B space. All physical telecommunica
    :widths: 20,20,10,30
 
    Link ID,Cable Type,Cable Length,Service Record
-   2HW01-42:01/PHHW01-1:01,ARCFLEX FLEX6Cable,,
-   +2HW.1-SWARM1:ETH0/+2HW.1-R1:8,Vericom Verimax MBW6U-01444,,
-   +2HW.1-SWARM1:ETH1/+2HW.1-R1:9,Vericom Verimax MBW6U-01444,,
-   +2HW.1-SWARM1:ILO/+2HW.1-R1:7,Vericom Verimax MBW6U-01444,,
+   +2HW01-42:01/THW01-R2:ETH1,ARCFLEX FLEX6Cable,,
+   +2HW01-42:02/THW01-R3:ETH1,ARCFLEX FLEX6Cable,,
+   +2HW.1-R1:6/+2HW.1-PDU,Verimax MBW6U-01444,,
+   +2HW.1-R1:7/+2HW.1-SWARM1:ILO,Vericom Verimax MBW6U-01444,,
+   +2HW.1-R1:8/+2HW.1-SWARM1:ETH0,Vericom Verimax MBW6U-01444,,
+   +2HW.1-R1:9/+2HW.1-SWARM1:ETH1,Vericom Verimax MBW6U-01444,,
+   +2HW.1-R1:10/+2HW.1-OMN2,Vericom Verimax MBW6U-01444,,
 
 .. csv-table:: Cabinet +2HW.1
   :header-rows: 1

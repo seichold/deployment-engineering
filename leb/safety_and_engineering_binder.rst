@@ -39,34 +39,83 @@ Physical Devices (Layer 1)
 --------------------------
 
 .. csv-table:: Site Assets
-   :file: assets.csv
    :header-rows: 1
+
+   Make,Model,Serial #,Asset Tag
+   ,,,
 
 Network Hosts (Layer 3)
 -----------------------
 
 .. csv-table:: Addressing
-   :file: ip-addresses.csv
-   :widths: 40,40,20
-   :header-rows: 1
+      :widths: 40,40,20
+      :header-rows: 1
 
-Cabling Subsystem Link Record
+      Hostname,Alias,IP
+      allstar.leb.memhamwan.net,eth0.allstar.leb.memhamwan.net,44.34.128.166
+      allstar-dmr.leb.memhamwan.net,eth0.allstar-dmr.leb.memhamwan.net,44.34.128.185/27
+      dmr.leb.memhamwan.net,eth0.dmr.leb.memhamwan.net,44.34.128.186/27
+      dstar.leb.memhamwan.net,eth0.dstar.leb.memhamwan.net,44.34.128.167/27
+      esxi1.leb.memhamwan.net,eth0.esxi1.leb.memhamwan.net,44.34.128.164/27
+      nas1.leb.memhamwan.net,eth0.nas1.leb.memhamwan.net,44.34.128.188/27
+      ,eth1.nas1.leb.memhamwan.net,44.34.128.189/27
+      ,ilo.nas1.leb.memhamwan.net,44.34.128.190/27
+      ns1.leb.memhamwan.net,eth0.ns1.leb.memhamwan.net,44.34.128.165/27
+      nvr.leb.memhamwan.net,eth0.nvr.leb.memhamwan.net,44.34.128.179/27
+      omn1.leb.memhamwan.net,ether1.omn1.leb.memhamwan.net,44.34.128.183/27
+      ,wlan1.omn1.leb.memhamwan.net,44.34.128.209/27
+      ptpazo.leb.memhamwan.net,ether1.ptpazo.leb.memhamwan.net,44.34.128.184/27
+      ,wlan1.ptpazo.leb.memhamwan.net,44.34.131.142/32
+      ptpcrw.leb.memhamwan.net,ether1.ptpcrw.leb.memhamwan.net,44.34.128.168/27
+      ,wlan1.ptpcrw.leb.memhamwan.net,44.34.131.145/32
+      ptphil.leb.memhamwan.net,ether1.ptphil.leb.memhamwan.net,44.34.128.182/27
+      ,wlan1.ptphil.leb.memhamwan.net,44.34.131.130/32
+      ptpmno.leb.memhamwan.net,ether1.ptpmno.leb.memhamwan.net,44.34.128.187/27
+      ,wlan1.ptpmno.leb.memhamwan.net,44.34.131.141/32
+      ptpsco.leb.memhamwan.net,ether1.ptpsco.leb.memhamwan.net,44.34.128.163/27
+      ,wlan0.ptpsco.leb.memhamwan.net,44.34.131.132/32
+      r1.leb.memhamwan.net,ether1.r1.leb.memhamwan.net,44.34.128.161/27
+      ,sstp1.r1.leb.memhamwan.net,44.34.130.8/27
+      stream.leb.memhamwan.net,eth0.stream.leb.memhamwan.net,44.34.128.178/27
+      voip.leb.memhamwan.net,eth0.voip.leb.memhamwan.net,44.34.128.173/27
+      vrrp.leb.memhamwan.net,vrrp.vrrp.leb.memhamwan.net,44.34.128.174/27
+
+Cabling and Housing Subsystem
 -----------------------------
 
 The premesis is considered a Class 1 TIA-606-B space. All physical telecommunications infrastructure is arranged such that it is TIA-606-B standards compliant [#]_.
 
 .. csv-table:: Infrastructure Identifiers
-   :file: identifiers.csv
    :widths: 20,20,60
    :header-rows: 1
 
-.. csv-table:: Cabling Subsystem Link Record
-   :file: cabling_subsystem_link_record.csv
-   :header-rows: 1
+   Identifier,Type,Description
+   ,,
 
-Signal Survey
+.. csv-table:: Cabling Subsystem Link Record
+  :header-rows: 1
+  :widths: 20,20,10,30
+
+  Link ID,Cable Type,Cable Length,Service Record
+  ,,,
+
+.. csv-table:: Cabinet
+  :header-rows: 1
+  :widths: 5,22,25,23,25
+
+  #,Front Device ID,Front Device Description,Back Device ID,Back Device Description
+  ,,,,
+
+Spectrum Plan
 -------------
 Work in progress...
+
+* *ptphil.leb* 5200 MHz 20/40mhz-eC
+* *ptpmno.leb* 5230 MHz 20/40mhz-eC
+* *ptpcrw.leb* 5765 MHz 20/40mhz-eC
+* *ptpazo.leb* 5795 MHz 20/40mhz-eC
+* *ptpsco.leb* 5825 MHz 20mhz
+
 
 Licensing and Permitting
 ========================
