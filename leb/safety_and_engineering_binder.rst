@@ -38,6 +38,11 @@ Systems Design and Deployment
 Physical Devices (Layer 1)
 --------------------------
 
+.. figure:: network-diagram-layer1.png
+  :alt: Layer 1 network diagram
+
+  Layer 1 network diagram
+  
 .. csv-table:: Site Assets
    :header-rows: 1
 
