@@ -7,3 +7,4 @@ For the latest approved version of these artifacts, see the Releases section. Th
 ## Contents
 
 * [Olive Branch (CRW)](crw/safety_and_engineering_binder.rst)
+* [Le Bonheur (LEB)](leb/safety_and_engineering_binder.rst)
