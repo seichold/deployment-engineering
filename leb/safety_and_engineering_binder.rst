@@ -42,12 +42,18 @@ Physical Devices (Layer 1)
   :alt: Layer 1 network diagram
 
   Layer 1 network diagram
-  
+
 .. csv-table:: Site Assets
    :header-rows: 1
 
-   Make,Model,Serial #,Asset Tag
-   ,,,
+   Make,Model,Serial #,Asset Tag,ID
+   MikroTik,RouterBOARD 750P r2,67D6067705D7,,r2.leb
+   MikroTik,921UAGS-5SHPacT,5AB804FBF815,,ptphil.leb
+   MikroTik,921UAGS-5SHPacT,6208042A4662,,ptpmno.leb
+   MikroTik,921UAGS-5SHPacT,5AB804B61699,,ptpcrw.leb
+   MikroTik,SXT G-5HPacD,54810467F26C,,ptpazo.leb
+   MikroTik,CRS125-24G-1S,5240040DE39C,,r1.leb
+
 
 Network Hosts (Layer 3)
 -----------------------
@@ -84,6 +90,7 @@ Network Hosts (Layer 3)
       stream.leb.memhamwan.net,eth0.stream.leb.memhamwan.net,44.34.128.178/27
       voip.leb.memhamwan.net,eth0.voip.leb.memhamwan.net,44.34.128.173/27
       vrrp.leb.memhamwan.net,vrrp.vrrp.leb.memhamwan.net,44.34.128.174/27
+      r2.leb.memhamwan.net,ether1.r2.leb.memhamwan.net,44.34.128.162/27
 
 Cabling and Housing Subsystem
 -----------------------------
@@ -115,9 +122,9 @@ Spectrum Plan
 -------------
 Work in progress...
 
-* *ptphil.leb* 5200 MHz 20/40mhz-eC
-* *ptpmno.leb* 5230 MHz 20/40mhz-eC
-* *ptpcrw.leb* 5765 MHz 20/40mhz-eC
+* *ptphil.leb* 5765 MHz 20mhz
+* *ptpmno.leb* 5230 MHz 20mhz
+* *ptpcrw.leb* 5200 MHz 20mhz
 * *ptpazo.leb* 5795 MHz 20/40mhz-eC
 * *ptpsco.leb* 5825 MHz 20mhz
 
