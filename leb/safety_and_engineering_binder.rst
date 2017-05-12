@@ -122,8 +122,8 @@ Spectrum Plan
 -------------
 Work in progress...
 
-* *ptphil.leb* 5765 MHz 20mhz
-* *ptpmno.leb* 5230 MHz 20mhz
+* *ptphil.leb* 5765 MHz 20mhz - temporarily out-of-service
+* *ptpmno.leb* 5220 MHz 20mhz
 * *ptpcrw.leb* 5200 MHz 20mhz
 * *ptpazo.leb* 5795 MHz 20/40mhz-eC
 * *ptpsco.leb* 5825 MHz 20mhz
