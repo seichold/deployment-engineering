@@ -162,7 +162,7 @@ Signal Survey
 -------------
 Work in progress...
 
-* *omn1.crw* on 5920 MHz (10 MHz channel width) at or below 30 dBm (RB912UAG-5HPnD) into a 13 dBi gain omni antenna (AMO-5G13)
+* *omn1.crw* on 5865 MHz (5 MHz channel width) at or below 30 dBm (RB912UAG-5HPnD) into a 13 dBi gain omni antenna (AMO-5G13)
 * *omn2.crw* on (20 MHz channel width)
 * *ptpleb.crw* on (20 MHz channel width)
 
