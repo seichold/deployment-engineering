@@ -71,12 +71,12 @@ Network Hosts (Layer 3)
    Hostname,Alias,IP
    cam1.crw.memhamwan.net,eth0.cam1.crw.memhamwan.net,44.34.129.121/28
    cam2.crw.memhamwan.net,eth0.cam2.crw.memhamwan.net,44.34.129.122/28
-   cam3.crw.memhamwan.net,eth0.cam3.crw.memhamwan.net,44.34.129.123/28
-   cam4.crw.memhamwan.net,eth0.cam4.crw.memhamwan.net,44.34.129.124/28
+   cam3.crw.memhamwan.net,eth0.cam3.crw.memhamwan.net,
+   cam4.crw.memhamwan.net,eth0.cam4.crw.memhamwan.net,
    coconut.crw.memhamwan.net,eth0.coconut.crw.memhamwan.net,44.34.129.125/28
    mango.crw.memhamwan.net,eth0.mango.crw.memhamwan.net,44.34.129.126/28
-   ilo.coconut.crw.memhamwan.net,ilo.coconut.crw.memhamwan.net,44.34.129.127/28
-   ilo.mango.crw.memhamwan.net,ilo.mango.crw.memhamwan.net,44.34.129.128/28
+   ilo.coconut.crw.memhamwan.net,ilo.coconut.crw.memhamwan.net,44.34.129.124/28
+   ilo.mango.crw.memhamwan.net,ilo.mango.crw.memhamwan.net,44.34.129.123/28
    omn1.crw.memhamwan.net,ether1.omn1.crw.memhamwan.net,44.34.129.114/28
    ,wlan1.omn1.crw.memhamwan.net,44.34.129.129/28
    omn2.crw.memhamwan.net,ether1.omn2.crw.memhamwan.net,44.34.129.119/28
