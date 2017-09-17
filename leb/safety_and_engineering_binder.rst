@@ -127,7 +127,7 @@ Work in progress...
 * *ptpcrw.leb* 5200 MHz 20mhz
 * *ptpazo.leb* 5795 MHz 20/40mhz-eC
 * *ptpsco.leb* 5825 MHz 20mhz
-
+* *omn1.leb* 5865 MHz 5mhz (Part 97)
 
 Licensing and Permitting
 ========================
